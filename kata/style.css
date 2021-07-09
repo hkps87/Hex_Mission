@@ -44,3 +44,37 @@ table {
 
 /* above is reset*/
 
+.wrap{
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+}
+.news_content{
+    width: 288px;
+    margin: 0 20px 0 20px;
+}
+.news_content h2{
+    font-size:20px; 
+    line-height:1.2;
+}
+.news li{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.footer{
+    width: 640px;
+    /* border: 5px solid #000; */
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    font-size:16px; 
+    line-height:1.5;
+}
