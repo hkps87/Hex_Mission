@@ -47,4 +47,160 @@ table {
 img{
     max-width: 100%;
     height: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+
+.wrap{
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /* height: 56px; */
+}
+.header_logo{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header_list{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    padding: 10px;
+    float: right;
+}
+.header_list a{
+    font: normal normal normal 20px/30px SF Pro Text;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+}
+.banner{
+    max-height: 870px;
+}
+.banner img{
+    background-size: contain;
+    max-height: 100%;
+    overflow: hidden;
+    display: block;
+    height:inherit;
+}
+.textArea{
+    max-width: 445px;
+    margin-top: -40%;
+    margin-left: 50%;
+}
+h1{
+    text-align: left;
+    font: normal normal bold 40px/60px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.textArea p{
+    text-align: left;
+    font: normal normal normal 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.banner_btn{
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    opacity: 1;
+    width: 350px;
+    height: 60px;
+    font-size: 30px;
+    color: #fff;
+    background-color: transparent;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    max-width: 1110px;
+    /* margin: 0px auto; */
+    /* align-items: center; */
+}
+.content_list{
+    display: flex;
+    width: 100%;
+}
+.content_text{
+    padding: 0 10%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.content_text h2{
+    max-width: 350px;
+    text-align: left;
+    font: normal normal bold 32px/48px SF Pro Text;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.content_text p{
+    max-width: 350px;
+    text-align: left;
+    font: normal normal 300 20px/30px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.content_text a{
+    text-align: left;
+    font: normal normal 600 16px/24px PingFang TC;
+    letter-spacing: 0px;
+    color: #AC8A46;
+    opacity: 1;
+}
+.content_img{
+    /* background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index2.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 555px; */
+    min-width:50%;
+}
+.product1{
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index2.jpg");
+}
+.product2{
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index3.png");
+}
+
+
+
+.footer{
+    background-color:#916000;
+    margin-bottom: 0;
+    display: flex;
+}
+.footer_logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_list{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer_list a{
+    text-align: left;
+    font: normal normal normal 20px/30px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
 }
