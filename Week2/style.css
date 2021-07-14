@@ -42,6 +42,12 @@ table {
 	border-spacing: 0;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 /* above is reset*/
 
 img{
@@ -55,8 +61,8 @@ a{
 
 .wrap{
     max-width: 1920px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 .header{
     display: flex;
@@ -83,18 +89,16 @@ a{
     color: #8D8D8D;
 }
 .banner{
-    max-height: 870px;
-}
-.banner img{
-    background-size: contain;
-    max-height: 100%;
-    overflow: hidden;
-    display: block;
-    height:inherit;
+    height: 870px;
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .textArea{
     max-width: 445px;
-    margin-top: -40%;
+    position: absolute;
+    margin-top: 20%;
     margin-left: 50%;
 }
 h1{
@@ -111,34 +115,37 @@ h1{
     color: #FFFFFF;
     opacity: 1;
 }
-.banner_btn{
-    border: 2px solid #FFFFFF;
+.btn{
     border-radius: 30px;
+    background-color: transparent;
     opacity: 1;
     width: 350px;
     height: 60px;
-    font-size: 30px;
+    
+}
+.banner_btn{
+    border: 2px solid #FFFFFF;
     color: #fff;
-    background-color: transparent;
+    font-size: 30px;
 }
 .content{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     max-width: 1110px;
-    /* margin: 0px auto; */
+    margin: 0 auto;
     /* align-items: center; */
 }
 .content_list{
     display: flex;
-    width: 100%;
+    /* width: 100%; */
 }
 .content_text{
-    padding: 0 10%;
+    padding: 10%;
     max-width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 .content_text h2{
     max-width: 350px;
@@ -176,6 +183,17 @@ h1{
 }
 .product2{
     background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index3.png");
+}
+.product3{
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index4.jpg");  
+}
+.product4{
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index5.jpg");  
+}
+.content_btn{
+    border: 2px solid #000000;
+    color: #000;
+    font-size: 24px;
 }
 
 
