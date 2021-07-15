@@ -86,14 +86,14 @@ a{
     display: flex;
     justify-content: center;
     width: 24.5%;
-}
-.header_list img{
-    display: inline;
+	height: 24px;
+	align-items:center;
 }
 .icon{
     display: inline;
     max-height: 20px;
     max-width: 20px;
+    vertical-align : middle;
 }
 .mr-5{
     margin-right: 5px;
@@ -103,6 +103,8 @@ a{
     letter-spacing: 0px;
     color: #8D8D8D;
 }
+
+/* header end*/
 .banner{
     height: 870px;
     /* background-image: url("https://i.imgur.com/9wuU4ZP.jpg"); */
@@ -223,7 +225,7 @@ h3{
 }
 .shop_list{
     display: flex;
-    height: 728px;
+    min-height: 728px;
     justify-content: center;
     align-items: center;
     background: #E0E0E0 0% 0% no-repeat padding-box;
@@ -245,6 +247,23 @@ h3{
     width: 350px;
     height: 540px;
 }
+.mask_img{
+  /* background-color: rgba(0, 0, 0, .6);
+  background-blend-mode: multiply; */
+}
+.sold_out{
+    margin-top: 15px;
+}
+.mask{
+    width: 350px;
+    height: 540px;
+    background-color: rgba(256, 256, 256, 0.8);
+
+}
+.sold_text{
+    margin-top: 300px;
+    position: absolute;
+}
 .price{
     margin-top: 16px;
 }
@@ -256,7 +275,7 @@ h3{
 .advertisement{
     display: flex;
     justify-content: center;
-    height: 520px;
+    /* height: 520px; */
     padding: 30px;
 }
 .advertisement img{
@@ -293,11 +312,15 @@ h3{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .subscribe_text{
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin-top: 300px;
+    margin-left: 300px;
+    position:absolute;
 }
 .subscribe_title{
     text-align: left;
@@ -312,6 +335,27 @@ h3{
 .input_btn{
     display: flex;
     justify-content: center;
+    border: 2px solid #916000;
+    border-radius: 0px 4px 4px 0px; 
+    height: 60px;
+    width: 350px;
+}
+.subscribe_input{
+    display: block;
+    width: 62%;
+    color: #8D8D8D;
+    outline: none;
+    border: 2px solid #916000;
+}
+.subscribe_btn{
+    display: block;
+    width: 38%;
+    background: #916000 0% 0% no-repeat padding-box;
+    border: 2px solid #916000;
+    /* border-radius: 0px 4px 4px 0px;  */
+    color: #fff;
+    cursor: pointer;
+    /* border: none; */
 }
 
 
