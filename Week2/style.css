@@ -67,14 +67,13 @@ a{
 .header{
     display: flex;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    /* height: 56px; */
+    height: 56px;
 }
 .header_logo{
     width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .header_list{
     display: flex;
@@ -83,6 +82,22 @@ a{
     padding: 10px;
     float: right;
 }
+.header_list li{
+    display: flex;
+    justify-content: center;
+    width: 24.5%;
+}
+.header_list img{
+    display: inline;
+}
+.icon{
+    display: inline;
+    max-height: 20px;
+    max-width: 20px;
+}
+.mr-5{
+    margin-right: 5px;
+}
 .header_list a{
     font: normal normal normal 20px/30px SF Pro Text;
     letter-spacing: 0px;
@@ -90,6 +105,7 @@ a{
 }
 .banner{
     height: 870px;
+    /* background-image: url("https://i.imgur.com/9wuU4ZP.jpg"); */
     background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -134,10 +150,12 @@ h1{
     max-width: 1110px;
     margin: 0 auto;
     /* align-items: center; */
+    padding: 50px 0;
 }
 .content_list{
     display: flex;
     /* width: 100%; */
+    min-height: 555px;
 }
 .content_text{
     padding: 10%;
@@ -147,7 +165,7 @@ h1{
     justify-content: center;
     /* align-items: flex-start; */
 }
-.content_text h2{
+h2{
     max-width: 350px;
     text-align: left;
     font: normal normal bold 32px/48px SF Pro Text;
@@ -155,7 +173,7 @@ h1{
     color: #000000;
     opacity: 1;
 }
-.content_text p{
+p{
     max-width: 350px;
     text-align: left;
     font: normal normal 300 20px/30px PingFang TC;
@@ -195,7 +213,106 @@ h1{
     color: #000;
     font-size: 24px;
 }
-
+h3{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.content_last{
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+.shop_list{
+    display: flex;
+    height: 728px;
+    justify-content: center;
+    align-items: center;
+    background: #E0E0E0 0% 0% no-repeat padding-box;
+}
+.shop_list_item{
+    max-width: 30%;
+    min-width: 25%;
+    margin:15px;
+}
+.shop_list_item p{
+    font-size: 16px;
+    text-align: left;
+    font: normal normal 300 16px/24px SF Pro Text;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.shop_list_img{
+    width: 350px;
+    height: 540px;
+}
+.price{
+    margin-top: 16px;
+}
+.o-price{
+    text-decoration: line-through;
+    color: #8D8D8D;
+    margin-left: 16px;
+}
+.advertisement{
+    display: flex;
+    justify-content: center;
+    height: 520px;
+    padding: 30px;
+}
+.advertisement img{
+    max-width: 730px;
+}
+.advertisement a{
+    text-align: left;
+    font: normal normal 600 16px/24px PingFang TC;
+    letter-spacing: 0px;
+    color: #AC8A46;
+    opacity: 1;
+}
+.ad_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.subscribe{
+    height: 600px;
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index10.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe_text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.subscribe_title{
+    text-align: left;
+    font: normal normal 600 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1
+}
+.fs-32{
+    font-size: 32px;
+}
+.input_btn{
+    display: flex;
+    justify-content: center;
+}
 
 
 .footer{
@@ -204,16 +321,22 @@ h1{
     display: flex;
 }
 .footer_logo{
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.text_right{
+    font: normal normal medium 14px/21px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
 .footer_list{
     display: flex;
-    width: 30%;
+    width: 45%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
 }
 .footer_list a{
@@ -221,4 +344,5 @@ h1{
     font: normal normal normal 20px/30px SF Pro Text;
     letter-spacing: 0px;
     color: #FFFFFF;
+    margin: 0 20px;
 }
