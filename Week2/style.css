@@ -64,45 +64,51 @@ a{
     /* display: flex;
     flex-direction: column; */
 }
-.header{
+.header {
+    max-width: 1110px;
+    margin: 0 auto;
     display: flex;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    height: 56px;
-}
-.header_logo{
-    width: 45%;
+    justify-content: space-between;
+    background-color: #ffffff;
+    /*   background: #ffffff 0% 0% no-repeat padding-box; */
+    /*   height: 56px; */
+  }
+  .header_logo {
+    /*   width: 45%; */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.header_list{
+  }
+  .header_list {
     display: flex;
-    width: 45%;
+    /*   width: 45%; */
     justify-content: space-between;
     padding: 10px;
-    float: right;
-}
-.header_list li{
-    display: flex;
-    justify-content: center;
-    width: 24.5%;
-	height: 24px;
-	align-items:center;
-}
-.icon{
-    display: inline;
-    max-height: 20px;
-    max-width: 20px;
-    vertical-align : middle;
-}
-.mr-5{
+    /*   float: right; */
+  }
+  .header_list li {
+    padding: 0 10px; /* 上下有在 .header_list 推過了，這邊就可以考慮不用推擠 */
+    /*   display: flex;
+    justify-content: center; */
+    /*   width: 24.5%; */
+    /*   height: 24px; */
+    /*   align-items: center; */
+  }
+  .icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+  }
+  .mr-5 {
     margin-right: 5px;
-}
-.header_list a{
-    font: normal normal normal 20px/30px SF Pro Text;
-    letter-spacing: 0px;
-    color: #8D8D8D;
-}
+  }
+  .header_list a {
+    font: 20px/30px SF Pro Text;
+    /*   font: normal normal normal 20px/30px SF Pro Text; */
+    /*   letter-spacing: 0px; */
+    color: #8d8d8d;
+  }
 
 /* header end*/
 .banner{
@@ -247,22 +253,28 @@ h3{
     width: 350px;
     height: 540px;
 }
-.mask_img{
-  /* background-color: rgba(0, 0, 0, .6);
-  background-blend-mode: multiply; */
-}
+
 .sold_out{
-    margin-top: 15px;
-}
-.mask{
+    position: relative;
+    background: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index8.jpg") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
     width: 350px;
     height: 540px;
-    background-color: rgba(256, 256, 256, 0.8);
-
+}
+.mask{
+    height:100%;
+    width:100%;
+    background: rgba(0,0,0,0.3);
 }
 .sold_text{
-    margin-top: 300px;
+    margin-top: -264px;
     position: absolute;
+    font-size: 24px;
+    width: 160px;
+    margin-left: 115px;
+    color: #fff;
+    /* text-align: center; */
 }
 .price{
     margin-top: 16px;
