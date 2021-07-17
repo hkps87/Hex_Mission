@@ -182,7 +182,7 @@ h1{
         height: 480px;
     }
     .textArea{
-        margin-top: 10%;
+        margin-top: 15%;
         margin-left: 8.5%;
         width: 345px;
     }
@@ -265,8 +265,36 @@ h3{
     margin-bottom: 50px;
     line-height: 1.5;
 }
+.content_list_mobile{
+    display: none;
+}
 /* content end*/
 /* content mobile start*/
+@media(max-width:414px){
+    .content_list{
+        display: none;
+    }
+    .content_list_mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .content_img{
+        width: 346px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    .content_text{
+        max-width: 345px;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .content_btn{
+        margin: 0 auto;
+        width: 345px;
+    }
+}
 /* content mobile end*/
 .shop_list{
     display: flex;
@@ -323,6 +351,23 @@ h3{
     color: #8D8D8D;
     margin-left: 16px;
 }
+/* shop_list end*/
+/*shop_list mobile start*/
+@media(max-width:414px){
+    .shop_list{
+        flex-direction: column;
+    }
+    .shop_list_item{
+        max-width: 345px;
+        /* margin:15px; */
+    }
+    .shop_list_img{
+        width: 345px;
+        height: 350px;
+    }
+
+}
+/*shop_list mobile end*/
 .advertisement{
     display: flex;
     justify-content: center;
@@ -345,6 +390,13 @@ h3{
     justify-content: center;
     max-width: 350px;
 }
+/* ad mobile start*/
+@media(max-width:414px){
+    .advertisement{
+        flex-direction: column;
+    }
+}
+/* ad mobile end*/
 .mt-20{
     margin-top: 20px;
 }
@@ -408,7 +460,14 @@ h3{
     cursor: pointer;
     /* border: none; */
 }
-
+/* subscribe mobile start*/
+@media(max-width:414px){
+    .subscribe_text{
+        margin-top: 312px;
+        margin-left: 5%;
+    }
+}
+/* subscribe mobile end*/
 
 .footer{
     background-color:#916000;
@@ -440,4 +499,13 @@ h3{
     letter-spacing: 0px;
     color: #FFFFFF;
     margin: 0 20px;
+}
+
+@media(max-width:414px){
+    .footer_logo{
+        width: 100%;
+    }
+    .footer_list{
+        display: none;
+    }
 }
