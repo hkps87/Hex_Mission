@@ -58,12 +58,10 @@ img{
 a{
     text-decoration: none;
 }
-
-.wrap{
-    max-width: 1920px;
-    /* display: flex;
-    flex-direction: column; */
+.fs-24{
+    font-size: 24px;
 }
+
 .header {
     max-width: 1110px;
     margin: 0 auto;
@@ -79,6 +77,19 @@ a{
     justify-content: center;
     align-items: center;
   }
+  .text-hide {
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .bg-logo {
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfume.png);
+    width: 128px;
+    height: 38px;
+  }
+  .d-block {
+    display: block;
+  }  
   .header_list {
     display: flex;
     /*   width: 45%; */
@@ -141,14 +152,18 @@ a{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
 }
 .textArea{
     max-width: 445px;
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 50%;
+    /* position: absolute; */
+    /* margin-top: 20%;
+    margin-left: 50%; */
 }
-h1{
+.slogan{
     text-align: left;
     font: normal normal bold 40px/60px SF Pro Text;
     letter-spacing: 0px;
@@ -203,6 +218,7 @@ h1{
     display: flex;
     /* width: 100%; */
     min-height: 555px;
+    /* flex-direction: column; */
 }
 .content_text{
     padding: 10%;
@@ -217,7 +233,7 @@ h2{
     text-align: left;
     font: normal normal bold 32px/48px SF Pro Text;
     letter-spacing: 0px;
-    color: #000000;
+    color: #000;
     opacity: 1;
 }
 p{
@@ -519,4 +535,39 @@ h3{
     .footer_list{
         display: none;
     }
+}
+.sub_header{
+    background-color: #916000;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto; 
+}
+.sub_header_list{
+    display: flex;
+    align-items: center;
+}
+.sub_header_list_item{
+    cursor: pointer;
+    color: #fff;
+}
+.product_items_img{
+    width: 255px;
+    height: 255px;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1{
+    color:#AC8A46;
+    border-bottom: 1px solid #AC8A46;
+}
+.other_page:hover{
+    color:#AC8A46;
+    border-bottom: 1px solid #AC8A46;
 }
