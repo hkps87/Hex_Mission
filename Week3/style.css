@@ -61,6 +61,9 @@ a{
 .fs-24{
     font-size: 24px;
 }
+.db{
+    display: block;
+}
 
 .header {
     max-width: 1110px;
@@ -536,6 +539,8 @@ h3{
         display: none;
     }
 }
+
+/*product*/
 .sub_header{
     background-color: #916000;
     height: 52px;
@@ -570,4 +575,18 @@ h3{
 .other_page:hover{
     color:#AC8A46;
     border-bottom: 1px solid #AC8A46;
+}
+
+/*log in*/
+.log_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input{
+    overflow:hidden;
+	width: 100%;
+	box-sizing:border-box;
+	height: 32px;
+	border:1px #cccccc solid;
 }
