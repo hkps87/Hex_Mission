@@ -180,7 +180,7 @@ a{
     color: #FFFFFF;
     opacity: 1;
 }
-.btn{
+.Mybtn{
     border-radius: 30px;
     background-color: transparent;
     opacity: 1;
@@ -589,4 +589,19 @@ h3{
 	box-sizing:border-box;
 	height: 32px;
 	border:1px #cccccc solid;
+}
+.btn_sign{
+    background-color: #fff;
+    color:#916000;
+    border: #916000 1px solid;
+    margin-left: 40%;
+}
+.btn_log{
+    background-color: #916000;
+    color:#fff;
+    border: #916000 1px solid;
+    float: right;
+}
+.main_color{
+    color:#916000;
 }

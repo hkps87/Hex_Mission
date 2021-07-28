@@ -43,13 +43,19 @@
             <div class="col-4 log_info">
                 <h2>Log in</h2>
                 <form action="product.html">
-                    <label for="account" class="db mb-1 mt-2">帳號</label>
-                    <input type="" placeholder="email@example.com" id="account" class="db input mb-2">
-                    <label for="password" class="db mb-1">密碼</label>
-                    <input type="text" placeholder="Password" id="password" class="db input mb-2">
-                    <span>忘記密碼</span>
-                    <button>註冊</button>
-                    <button>登入</button>
+                    <div class="mb-3 mt-3">
+                        <label for="account" class="form-label">帳號</label>
+                        <input type="email" class="form-control" id="account" placeholder="email@example.com">
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="password" class="form-label">密碼</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <span class="fs-16 main_color">忘記密碼</span>
+                    <button class="btn btn-light btn_sign me-3">註冊</button>
+                    <button class="btn btn-light btn_log">登入</button>
+                    
+                    
                 </form>
             </div>
         </div>
