@@ -625,3 +625,9 @@ input[type=checkbox]:checked {
     border: #916000 1px solid;
     width: 100%;
 }
+.fs-14{
+    font-size: 14px;
+}
+.light_memColor{
+    color:#A5A5A5;
+}
