@@ -614,3 +614,14 @@ h3{
 .revise{
     border-bottom: 2px solid #916000;
 }
+
+input[type=checkbox]:checked {
+    color: #916000;
+    background-color: #444;
+}
+.btn_revise{
+    background-color: #916000;
+    color:#fff;
+    border: #916000 1px solid;
+    width: 100%;
+}
