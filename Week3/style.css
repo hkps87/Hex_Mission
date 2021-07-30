@@ -577,6 +577,12 @@ h3{
     border-bottom: 1px solid #AC8A46;
 }
 
+@media(max-width:414px){
+    .sub_header{
+        display: none;
+    }
+}
+
 /*log in*/
 .log_info{
     display: flex;
@@ -630,4 +636,20 @@ input[type=checkbox]:checked {
 }
 .light_memColor{
     color:#A5A5A5;
+}
+
+/*product2*/
+.mobile_product{
+    display: none;
+}
+@media(max-width:414px){
+    .mobile_product{
+        display: block;
+    }
+    .desktop_product2{
+        display: none;
+    }
+    .mobile_adjust{
+        border: none;
+    }
 }
