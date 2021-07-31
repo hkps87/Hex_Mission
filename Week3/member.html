@@ -35,7 +35,7 @@
             <li class="sub_header_list_item me-3"><a>ZARA</a></li>
         </ul>
     </div> <!--sub_header-->
-    <div class="container">
+    <div class="container member_desktop">
         <div class="row">
             <div class="col-2">
                 <h2 class="fs-20 member_color mb-2">會員中心</h2>
@@ -233,7 +233,208 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> <!--container-->
+    <div class="container member_mobile">
+      <div class="row mb-3">
+        <div class="col-4">
+          <h3 class="fs-16 member_color revise lh-lg ta-c">會員資料修改</h3>
+        </div>
+        <div class="col-4">
+          <h3 class="fs-16 member_color lh-lg ta-c">訂單查詢</h3>
+        </div>
+        <div class="col-4">
+          <h3 class="fs-16 member_color lh-lg ta-c">退／換貨申請</h3>
+        </div>  
+      </div>
+      <div class="row mb-3">
+        <img class="col-2 member_icon" src="images/login.svg"><span class="member_color fs-16 col-10">會員編碼 <span class="fs-20">T00020080615</span></span>
+      </div>
+                <div class="mb-4 row">
+                    <div class="col-4">
+                      <span class="member_color">購物車</span>
+                    </div>
+                    <div class="col-8">
+                        <span class="member_color">56</span>
+                      </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-4">
+                      <span class="member_color">我的收藏</span>
+                    </div>
+                    <div class="col-8">
+                        <span class="member_color">23</span>
+                      </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-4">
+                      <span class="member_color">完成訂單</span>
+                    </div>
+                    <div class="col-8">
+                        <span class="member_color">8</span>
+                      </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-4">
+                      <span class="member_color">會員紅利</span>
+                    </div>
+                    <div class="col-8">
+                        <span class="member_color">2680</span>
+                      </div>
+                </div>
+                <div class="mb-3 row">
+                    <div class="col-4">
+                      <span class="member_color">邀請碼</span>
+                    </div>
+                    <div class="col-8">
+                        <span class="member_color">TK2075</span>
+                      </div>
+                </div>
+                <div class="row mb-5">
+                    <span class="fs-14 light_memColor">新戶輸入邀請碼即可獲贈紅利點數1000點</span>
+                </div>
+                <div class="row">
+                  <h3 class="fs-16 fw-bold">個人資料修改</h3>
+                </div>
+                
+                <hr>
+                <div class="mb-3 row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label member_color col-3">會員帳號</label>
+                    <div class="col-sm-10 col-9">
+                      <input type="text" readonly class="form-control-plaintext member_color" id="staticEmail" value="email@example.com">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="inputName" class="col-sm-2 col-form-label member_color col-3">會員姓名</label>
+                    <div class="col-sm-10 col-9">
+                      <input type="text" class="form-control" id="inputName">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="gender" class="col-sm-2 col-form-label member_color col-3">會員性別</label>
+                    <div class="col-sm-2 col-3">
+                        <select class="form-select member_color" aria-label="Default select example" id="gender">
+                            <option selected>女</option>
+                            <option value="1">男</option>
+                            <option value="2">其他</option>
+                          </select>
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="email" class="col-sm-2 col-form-label member_color col-3">電子信箱</label>
+                    <div class="col-sm-10 col-9">
+                      <input type="email" class="form-control" id="email" placeholder="email@example.com">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="phone" class="col-sm-2 col-form-label member_color col-3">手機號碼</label>
+                    <div class="col-sm-10 col-9">
+                      <input type="tel" class="form-control" id="phone">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="location" class="col-sm-2 col-form-label member_color col-3">聯絡地址</label>
+                    <div class="col-sm-3 col-8">
+                        <select class="form-select member_color" aria-label="Default select example" id="location">
+                            <option selected>台灣及離島</option>
+                            <option value="1">海外</option>
+                            <option value="2">其他</option>
+                          </select>
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <div class="offset-sm-2 col-sm-3 offset-3 col-4">
+                        <select class="form-select member_color" aria-label="Default select example" id="location">
+                            <option selected>高雄市</option>
+                            <option value="1">高雄市</option>
+                            <option value="2">高雄市</option>
+                          </select>
+                    </div>
+                    <div class="col-sm-3 col-4">
+                        <select class="form-select member_color" aria-label="Default select example" id="location">
+                            <option selected>鹽埕區</option>
+                            <option value="1">鹽埕區</option>
+                            <option value="2">鹽埕區</option>
+                          </select>
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <div class="offset-sm-2 col-sm-6 offset-3 col-9">
+                      <input type="text" class="form-control" id="location" placeholder="請輸入地址">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-sm-10 offset-sm-2 offset-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="getinfo" checked>
+                        <label class="form-check-label member_color" for="getinfo">
+                            我願意收到最新優惠情報
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="address" class="col-sm-2 col-form-label member_color col-3">配送地址</label>
+                    <div class="col-sm-3 col-8">
+                        <select class="form-select member_color" aria-label="Default select example" id="address">
+                            <option selected>台灣及離島</option>
+                            <option value="1">海外</option>
+                            <option value="2">其他</option>
+                          </select>
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <div class="offset-sm-2 col-sm-3 col-4 offset-3">
+                        <select class="form-select member_color" aria-label="Default select example" id="address">
+                            <option selected>高雄市</option>
+                            <option value="1">高雄市</option>
+                            <option value="2">高雄市</option>
+                          </select>
+                    </div>
+                    <div class="col-sm-3 col-4">
+                        <select class="form-select member_color" aria-label="Default select example" id="address">
+                            <option selected>鹽埕區</option>
+                            <option value="1">鹽埕區</option>
+                            <option value="2">鹽埕區</option>
+                          </select>
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <div class="offset-sm-2 col-sm-6 offset-3 col-9">
+                      <input type="text" class="form-control" id="address" placeholder="請輸入地址">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <div class="offset-sm-2 col-sm-3 col-6 offset-3">
+                      <button class="btn btn-light btn_revise mb-3">確定修改</button>
+                    </div>
+                  </div>
+
+                  <h3 class="fs-16 fw-bold">修改密碼</h3>
+                  <hr>
+                  <div class="mb-3 row">
+                    <label for="old_password" class="col-sm-2 col-form-label member_color col-3">舊密碼</label>
+                    <div class="col-sm-10 col-9">
+                      <input type="password" class="form-control" id="old_password">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="new_password" class="col-sm-2 col-form-label member_color col-3">新密碼</label>
+                    <div class="col-sm-10 col-9">
+                      <input type="password" class="form-control" id="new_password">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="recorrect" class="col-sm-2 col-form-label member_color col-3">確認密碼</label>
+                    <div class="col-sm-10 col-9">
+                      <input type="password" class="form-control" id="recorrect">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <div class="offset-sm-2 col-sm-3 offset-3 col-6">
+                      <button class="btn btn-light btn_revise mb-3">變更密碼</button>
+                    </div>
+                  </div>
+    </div> <!--mobile container-->
     <div class="footer">
         <div class="footer_logo">
             <img src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfumewhite.png" alt="footer_logo">
